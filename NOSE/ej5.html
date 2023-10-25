@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        var num1=[]
+        var num3=[]
+        for (i=0; i < 5; i++){
+            vec1 = parseInt(prompt("ingrese unos numeros"))
+            num1.push(vec1)
+            document.write(num1[i]+" ")
+        }   
+        document.write("<br>")     
+        for (let h = 0; h< 5; h++) {
+            suma = num1[h] * num1[h]
+            num3.push(suma)
+            document.write(num3[h]+" ")
+
+        }
+    </script>
+</body>
+</html>
