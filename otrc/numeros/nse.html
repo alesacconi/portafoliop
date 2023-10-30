@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action=""></form>
+        <label for="n1">
+        <input type="text" id="Nombre" placeholder="ingrese un numero">
+        </label>
+        <label for="n2">
+            <input type="text" id="Curso" placeholder="ingrese otro numero">
+        </label>
+        <button type="button" id="agregar" onclick="añadir()">agregar a la tabla</button>
+    <script>
+        function añadir(){
+
+            n1= document.getElementById("n1").value
+            n2 = document.getElementById("n2").value
+            sum = parseInt(n1) + parseInt(n2)
+            alert ("la suma de" + n1 + "mas" + n2 + "es igual" + sum)
+        }
+    </script>
+</body>
+</html>
