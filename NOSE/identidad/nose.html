@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action=""></form>
+        <label for="Nombre">
+        <input type="text" id="Nombre" placeholder="ingrese su nombre y apellido">
+        </label>
+        <label for="Curso">
+            <input type="text" id="Curso" placeholder="ingrese su curso">
+        </label>
+        <label for="Escuela">
+            <input type="text" id="Escuela" placeholder="ingrese su instituciòn">
+        </label>
+        <button type="button" id="agregar" onclick="añadir()">agregar a la tabla</button>
+   <script>
+      function añadir(){
+
+        nombre= document.getElementById("nombre").value
+        apellid = document.getElementById("apellido").value
+        dni = document.getElementById("dni").value
+        alert ("Bienvenido SR" + nombre + apellid + "su apellidoes" + dni)
+      }
+   </script>     
+</body>
+</html>
